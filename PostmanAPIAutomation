@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "92246bed-1e7c-4fc1-830e-238ba1a17df3",
+		"name": "testMock1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/studentsDetails/227779",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}//api/studentsDetails/227779",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"",
+						"api",
+						"studentsDetails",
+						"227779"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}//api/studentsDetails/227779",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"",
+								"api",
+								"studentsDetails",
+								"227779"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\n  \"firstName\": \"John\",\n  \"lastName\" : \"doe\",\n  \"age\"      : 26,\n  \"address\"  : {\n    \"streetAddress\": \"naist street\",\n    \"city\"         : \"Nara\",\n    \"postalCode\"   : \"630-0192\"\n  },\n  \"phoneNumbers\": [\n    {\n      \"type\"  : \"iPhone\",\n      \"number\": \"0123-4567-8888\"\n    },\n    {\n      \"type\"  : \"home\",\n      \"number\": \"0123-4567-8910\"\n    }\n  ]\n}"
+				},
+				{
+					"name": "/api/studentsDetails/227779",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}//api/studentsDetails/227779",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"",
+								"api",
+								"studentsDetails",
+								"227779"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 06:46:53 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=3000c9329de6f749"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=0f577fca731143bb"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1622530073"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"160-Jdu5QCIJQYLlZ58UdQG6wlP+v4g\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"firstName\": \"John\",\n  \"lastName\" : \"doe\",\n  \"age\"      : 26,\n  \"address\"  : {\n    \"streetAddress\": \"naist street\",\n    \"city\"         : \"Nara\",\n    \"postalCode\"   : \"630-0192\"\n  },\n  \"phoneNumbers\": [\n    {\n      \"type\"  : \"iPhone\",\n      \"number\": \"0123-4567-8888\",\n      \"model\" : \"i4.2\"\n    },\n    {\n      \"type\"  : \"home\",\n      \"number\": \"0123-4567-8910\"\n    }\n  ]\n}"
+				}
+			]
+		}
+	]
+}
